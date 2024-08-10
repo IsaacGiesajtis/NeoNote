@@ -1,0 +1,41 @@
+./
+directory_tree.txt
+main/
+|   java/
+|   |   com/
+|   |   |   neonote/
+|   |   |   |   neonote/
+|   |   |   |   |   NeonoteApplication.java
+|   |   |   |   |   controllers/
+|   |   |   |   |   |   CollectionController.java
+|   |   |   |   |   |   NoteController.java
+|   |   |   |   |   |   UserController.java
+|   |   |   |   |   |   models/
+|   |   |   |   |   |   |   CreateBlockRequest.java
+|   |   |   |   |   |   |   CreateCollectionRequest.java
+|   |   |   |   |   |   |   CreateNoteRequest.java
+|   |   |   |   |   |   |   UserLoginRequest.java
+|   |   |   |   |   |   |   UserRegistrationRequest.java
+|   |   |   |   |   entities/
+|   |   |   |   |   |   Block.java
+|   |   |   |   |   |   Collection.java
+|   |   |   |   |   |   Note.java
+|   |   |   |   |   repositories/
+|   |   |   |   |   |   CollectionRepository.java
+|   |   |   |   |   |   NoteRepository.java
+|   |   |   |   |   services/
+|   |   |   |   |   |   BlockService.java
+|   |   |   |   |   |   CollectionService.java
+|   |   |   |   |   |   FirebaseService.java
+|   |   |   |   |   |   NoteService.java
+|   |   |   |   |   util/
+|   |   |   |   |   |   FirebaseConfig.java
+|   resources/
+|   |   application.properties
+print_tree.sh
+test/
+|   java/
+|   |   com/
+|   |   |   neonote/
+|   |   |   |   neonote/
+|   |   |   |   |   NeonoteApplicationTests.java
